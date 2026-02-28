@@ -6,7 +6,7 @@ import SearchBar from './SearchBar';
 const SLIDES = [
     {
         id: 1,
-        image: '/hero1.png',
+        image: 'hero1.png',
         tag: 'Digital India',
         title: 'Find the Right Government Scheme for You',
         subtitle: 'Access 1500+ central and state government schemes for education, health, farming, housing, and more.',
@@ -17,7 +17,7 @@ const SLIDES = [
     },
     {
         id: 2,
-        image: '/hero2.png',
+        image: 'hero2.png',
         tag: '🌾 Farming Schemes',
         title: '₹6,000/Year Direct to Farmers\' Bank Accounts',
         subtitle: 'PM Kisan Samman Nidhi and 50+ other agriculture schemes for small and marginal farmers.',
@@ -27,7 +27,7 @@ const SLIDES = [
     },
     {
         id: 3,
-        image: '/hero3.png',
+        image: 'hero3.png',
         tag: '🎓 Education Scholarships',
         title: 'Scholarships & Skill Training for Every Student',
         subtitle: 'Discover PMKVY, NSP scholarships, and 100+ education schemes from Class 1 to PhD.',
@@ -37,7 +37,7 @@ const SLIDES = [
     },
     {
         id: 4,
-        image: '/hero4.png',
+        image: 'hero4.png',
         tag: '🏥 Health Coverage',
         title: '₹5 Lakh Free Health Insurance for Your Family',
         subtitle: 'Ayushman Bharat (PM-JAY) covers 80 crore Indians — check if your family is eligible.',
@@ -47,7 +47,7 @@ const SLIDES = [
     },
     {
         id: 5,
-        image: '/hero5.png',
+        image: 'hero5.png',
         tag: '🏠 Housing for All',
         title: 'Your Dream Home — Subsidised by the Government',
         subtitle: 'PMAY offers subsidies up to ₹2.67 lakh. Check eligibility for urban and rural housing schemes.',
@@ -102,7 +102,7 @@ export default function Hero({ schemes, onSearch, onOpenEligibility, onFilterCat
             }}>
                 <img
                     key={slide.id}
-                    src={slide.image}
+                    src={`${import.meta.env.BASE_URL}${slide.image}`}
                     alt={slide.tag}
                     style={{
                         width: '100%', height: '100%', objectFit: 'cover',
