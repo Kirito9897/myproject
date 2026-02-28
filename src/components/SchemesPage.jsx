@@ -91,7 +91,7 @@ export default function SchemesPage({ initialQuery, initialCategory, initialElig
                     {['All', 'Farming', 'Health', 'Education', 'Housing', 'Employment', 'Insurance', 'Finance', 'Women & Child', 'Social Security', 'Food Security'].map(cat => (
                         <button key={cat} onClick={() => updateFilter({ ...filters, category: cat })} style={{
                             padding: '12px 16px', borderBottom: `3px solid ${filters.category === cat ? 'var(--accent)' : 'transparent'}`,
-                            background: 'none', border: 'none', borderBottom: `3px solid ${filters.category === cat ? 'var(--accent)' : 'transparent'}`,
+                            background: 'none', border: 'none',
                             color: filters.category === cat ? 'var(--accent)' : 'var(--text-muted)',
                             fontWeight: filters.category === cat ? 700 : 500, fontSize: '0.85rem',
                             cursor: 'pointer', whiteSpace: 'nowrap', transition: 'color 0.2s',
