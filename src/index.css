@@ -55,6 +55,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -63,6 +64,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -186,6 +188,9 @@ img {
 .ticker-track {
   animation: ticker 30s linear infinite;
   white-space: nowrap;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .ticker-track:hover {
@@ -227,6 +232,18 @@ img {
   }
 }
 
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .anim-fade-up {
   animation: fadeInUp 0.5s ease both;
 }
@@ -237,6 +254,10 @@ img {
 
 .anim-slide-down {
   animation: slideDown 0.3s ease both;
+}
+
+.anim-scale-in {
+  animation: scaleIn 0.3s ease both;
 }
 
 /* ─── Category Badge Colors ──────────────────────────────────── */
@@ -387,6 +408,29 @@ img {
   aside {
     position: static !important;
     max-height: none !important;
+  }
+}
+
+/* ─── Mobile fixes for white line on sides ────────────────────── */
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    position: relative;
+    left: 0;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section {
+    width: 100%;
+    overflow-x: hidden;
   }
 }
 
