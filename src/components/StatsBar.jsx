@@ -21,10 +21,11 @@ export default function StatsBar() {
                 gap: '1.5rem',
             }}>
                 {STATS.map((s, i) => (
-                    <div key={s.label} style={{
+                    <div key={s.label} className="stats-item" style={{
                         display: 'flex', alignItems: 'center', gap: '16px',
-                        padding: '0.5rem 0',
-                        borderRight: i < STATS.length - 1 ? '1px solid rgba(255,255,255,0.15)' : 'none',
+                        padding: '1rem',
+                        borderRadius: '16px',
+                        transition: 'background 0.2s',
                     }}>
                         <div style={{
                             width: 56, height: 56, borderRadius: 16, flexShrink: 0,

@@ -97,8 +97,9 @@ export default function Hero({ schemes, onSearch, onOpenEligibility, onFilterCat
             {/* Image + Overlay */}
             <div style={{
                 position: 'relative',
-                height: 'clamp(420px, 55vw, 600px)',
+                height: 'clamp(500px, 75vh, 750px)',
                 overflow: 'hidden',
+                background: '#000',
             }}>
                 <img
                     key={slide.id}
@@ -107,13 +108,19 @@ export default function Hero({ schemes, onSearch, onOpenEligibility, onFilterCat
                     style={{
                         width: '100%', height: '100%', objectFit: 'cover',
                         opacity: transitioning ? 0 : 1,
-                        transition: 'opacity 0.5s ease',
+                        filter: 'contrast(1.1) saturate(1.1)',
+                        transform: transitioning ? 'scale(1.05)' : 'scale(1.15)',
+                        transition: 'opacity 0.6s ease, transform 10s ease-out',
                     }}
                     onError={(e) => { e.target.style.background = 'var(--primary)'; }}
                 />
-                {/* Gradient Overlay */}
-                <div style={{ position: 'absolute', inset: 0, background: slide.overlay }} />
-
+                {/* Gradient Overlay - refined for more image visibility */}
+                <div style={{
+                    position: 'absolute', inset: 0,
+                    background: `linear-gradient(to right, ${slide.overlay.split('rgba')[1].startsWith('(0,45,98') ? 'rgba(0,45,98,0.85)' : slide.overlay.split(' ')[1].split(')')[0] + ') '} 0%, transparent 80%)`,
+                }} />
+                {/* Bottom fade for search bar integration */}
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '150px', background: 'linear-gradient(to top, var(--primary) 0%, transparent 100%)' }} />
                 {/* Text Content */}
                 <div style={{
                     position: 'absolute', inset: 0,
@@ -125,16 +132,18 @@ export default function Hero({ schemes, onSearch, onOpenEligibility, onFilterCat
                     transition: 'all 0.5s ease',
                 }}>
                     <span style={{
-                        display: 'inline-block', padding: '5px 14px', borderRadius: 999,
-                        background: 'var(--saffron)', color: '#000', fontWeight: 700,
-                        fontSize: '0.77rem', marginBottom: '1rem', alignSelf: 'flex-start',
-                        letterSpacing: '0.04em',
+                        display: 'inline-block', padding: '6px 16px', borderRadius: 999,
+                        background: 'var(--saffron)', color: '#000', fontWeight: 800,
+                        fontSize: '0.72rem', marginBottom: '1.25rem', alignSelf: 'flex-start',
+                        letterSpacing: '0.08em', textTransform: 'uppercase',
+                        boxShadow: '0 4px 12px rgba(255,153,51,0.3)',
                     }}>{slide.tag}</span>
 
                     <h1 style={{
-                        color: '#FFFFFF', fontWeight: 900, lineHeight: 1.2, marginBottom: '1rem',
-                        fontSize: 'clamp(1.6rem, 3.5vw, 2.8rem)',
-                        textShadow: '0 2px 12px rgba(0,0,0,0.3)',
+                        color: '#FFFFFF', fontWeight: 900, lineHeight: 1.1, marginBottom: '1.25rem',
+                        fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+                        textShadow: '0 4px 15px rgba(0,0,0,0.5)',
+                        letterSpacing: '-0.02em',
                     }}>
                         {slide.title}
                     </h1>
