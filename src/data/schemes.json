@@ -1,0 +1,527 @@
+[
+    {
+        "id": "pmkisan",
+        "name": "PM Kisan Samman Nidhi",
+        "category": "Farming",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹6,000/year direct bank transfer in 3 equal installments",
+        "documents": [
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Land Records / Khatoni",
+            "Mobile Number"
+        ],
+        "applyLink": "https://pmkisan.gov.in",
+        "description": "Income support scheme providing ₹6,000 per year to small and marginal farmer families across India.",
+        "ministry": "Ministry of Agriculture",
+        "tags": [
+            "farmer",
+            "income support",
+            "direct benefit"
+        ]
+    },
+    {
+        "id": "pmay-urban",
+        "name": "Pradhan Mantri Awas Yojana (Urban)",
+        "category": "Housing",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "Subsidy up to ₹2.67 lakh on home loans for EWS/LIG/MIG households",
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Bank Statement",
+            "Property Documents"
+        ],
+        "applyLink": "https://pmaymis.gov.in",
+        "description": "Provides affordable housing to urban poor through interest subsidy on home loans.",
+        "ministry": "Ministry of Housing and Urban Affairs",
+        "tags": [
+            "housing",
+            "loan subsidy",
+            "urban poor"
+        ]
+    },
+    {
+        "id": "pmay-gramin",
+        "name": "Pradhan Mantri Awas Yojana (Gramin)",
+        "category": "Housing",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹1.20 lakh (plain) or ₹1.30 lakh (hilly) for construction of pucca house",
+        "documents": [
+            "Aadhaar Card",
+            "BPL Card / SECC Data",
+            "Bank Account Details",
+            "Land Documents"
+        ],
+        "applyLink": "https://pmayg.nic.in",
+        "description": "Provides financial assistance to rural BPL households for construction of pucca houses.",
+        "ministry": "Ministry of Rural Development",
+        "tags": [
+            "housing",
+            "rural",
+            "BPL"
+        ]
+    },
+    {
+        "id": "pmjdy",
+        "name": "Pradhan Mantri Jan Dhan Yojana",
+        "category": "Finance",
+        "state": "All India",
+        "minAge": 10,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "Zero-balance bank account, ₹1 lakh accident insurance, ₹30,000 life cover, RuPay debit card",
+        "documents": [
+            "Aadhaar Card",
+            "PAN Card (optional)",
+            "Passport-size Photo"
+        ],
+        "applyLink": "https://pmjdy.gov.in",
+        "description": "Financial inclusion scheme ensuring access to banking, savings, credit, insurance and pension.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "banking",
+            "financial inclusion",
+            "insurance"
+        ]
+    },
+    {
+        "id": "pmsby",
+        "name": "Pradhan Mantri Suraksha Bima Yojana",
+        "category": "Insurance",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 70,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹2 lakh accidental death/disability cover at just ₹20/year premium",
+        "documents": [
+            "Aadhaar Card",
+            "Bank Account",
+            "Mobile Number"
+        ],
+        "applyLink": "https://jansuraksha.gov.in",
+        "description": "Accidental death and disability insurance scheme with very low annual premium.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "insurance",
+            "accident",
+            "low premium"
+        ]
+    },
+    {
+        "id": "pmjjby",
+        "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "category": "Insurance",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 50,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹2 lakh life insurance cover at ₹436/year premium",
+        "documents": [
+            "Aadhaar Card",
+            "Bank Account",
+            "Mobile Number"
+        ],
+        "applyLink": "https://jansuraksha.gov.in",
+        "description": "Life insurance scheme providing ₹2 lakh benefit to nominee on account holder's death.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "life insurance",
+            "low premium",
+            "family protection"
+        ]
+    },
+    {
+        "id": "nsp",
+        "name": "National Scholarship Portal Schemes",
+        "category": "Education",
+        "state": "All India",
+        "minAge": 5,
+        "maxAge": 30,
+        "gender": "All",
+        "caste": "SC",
+        "benefits": "Scholarships from ₹1,000 to ₹20,000 per year for SC/ST/OBC/Minority students",
+        "documents": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Caste Certificate",
+            "Marksheet",
+            "Bank Account"
+        ],
+        "applyLink": "https://scholarships.gov.in",
+        "description": "Central umbrella portal for scholarships for SC/ST/OBC/Minority students from Class 1 to PhD.",
+        "ministry": "Ministry of Education",
+        "tags": [
+            "scholarship",
+            "education",
+            "SC/ST"
+        ]
+    },
+    {
+        "id": "nsp-obc",
+        "name": "Post-Matric Scholarship for OBC Students",
+        "category": "Education",
+        "state": "All India",
+        "minAge": 14,
+        "maxAge": 35,
+        "gender": "All",
+        "caste": "OBC",
+        "benefits": "Maintenance allowance + tuition fee reimbursement up to ₹10,000/year",
+        "documents": [
+            "Aadhaar Card",
+            "OBC Certificate",
+            "Income Certificate",
+            "Marksheet",
+            "Bank Account"
+        ],
+        "applyLink": "https://scholarships.gov.in",
+        "description": "Financial assistance to OBC students pursuing post-matriculation studies.",
+        "ministry": "Ministry of Social Justice",
+        "tags": [
+            "scholarship",
+            "OBC",
+            "education"
+        ]
+    },
+    {
+        "id": "ayushman-bharat",
+        "name": "Ayushman Bharat PM-JAY",
+        "category": "Health",
+        "state": "All India",
+        "minAge": 0,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹5 lakh/year health insurance cover for secondary & tertiary hospitalization",
+        "documents": [
+            "Aadhaar Card",
+            "SECC / Ration Card",
+            "Ayushman Card"
+        ],
+        "applyLink": "https://pmjay.gov.in",
+        "description": "World's largest health insurance scheme providing ₹5 lakh free treatment at 25,000+ hospitals.",
+        "ministry": "Ministry of Health and Family Welfare",
+        "tags": [
+            "health insurance",
+            "cashless treatment",
+            "poor families"
+        ]
+    },
+    {
+        "id": "beti-bachao",
+        "name": "Beti Bachao Beti Padhao",
+        "category": "Women & Child",
+        "state": "All India",
+        "minAge": 0,
+        "maxAge": 10,
+        "gender": "Female",
+        "caste": "All",
+        "benefits": "Free education for girls, awareness campaigns, conditional cash transfers in select states",
+        "documents": [
+            "Birth Certificate",
+            "Aadhaar Card",
+            "Parent's ID Proof"
+        ],
+        "applyLink": "https://wcd.nic.in/bbbp-schemes",
+        "description": "Scheme to address declining child sex ratio and promote welfare and education of the girl child.",
+        "ministry": "Ministry of Women and Child Development",
+        "tags": [
+            "girl child",
+            "education",
+            "gender equality"
+        ]
+    },
+    {
+        "id": "sukanya-samriddhi",
+        "name": "Sukanya Samriddhi Yojana",
+        "category": "Women & Child",
+        "state": "All India",
+        "minAge": 0,
+        "maxAge": 10,
+        "gender": "Female",
+        "caste": "All",
+        "benefits": "8.2% interest rate (highest among small savings), tax benefits under Sec 80C",
+        "documents": [
+            "Birth Certificate of Girl Child",
+            "Parent's Aadhaar",
+            "Parent's PAN Card"
+        ],
+        "applyLink": "https://www.indiapost.gov.in",
+        "description": "Small savings scheme for girl children offering highest interest rate and all tax benefits.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "girl child",
+            "savings",
+            "tax benefit"
+        ]
+    },
+    {
+        "id": "pm-mudra",
+        "name": "Pradhan Mantri MUDRA Yojana",
+        "category": "Employment",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 65,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "Collateral-free business loans up to ₹10 lakh (Shishu/Kishor/Tarun categories)",
+        "documents": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Business Plan",
+            "Bank Statement",
+            "Address Proof"
+        ],
+        "applyLink": "https://www.mudra.org.in",
+        "description": "Provides micro-finance loans to non-corporate, non-farm small/micro enterprises.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "entrepreneurship",
+            "loan",
+            "small business"
+        ]
+    },
+    {
+        "id": "standup-india",
+        "name": "Stand-Up India Scheme",
+        "category": "Employment",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "Female",
+        "caste": "SC",
+        "benefits": "Loans between ₹10 lakh–₹1 crore for SC/ST/Women entrepreneurs",
+        "documents": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Caste Certificate",
+            "Business Proposal",
+            "Bank Statement"
+        ],
+        "applyLink": "https://www.standupmitra.in",
+        "description": "Facilitates bank loans to SC/ST and Women entrepreneurs for greenfield enterprises.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "entrepreneur",
+            "SC/ST",
+            "women",
+            "loan"
+        ]
+    },
+    {
+        "id": "pm-kaushal",
+        "name": "Pradhan Mantri Kaushal Vikas Yojana",
+        "category": "Education",
+        "state": "All India",
+        "minAge": 15,
+        "maxAge": 45,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "Free skill training + ₹8,000 reward on certification + job placement assistance",
+        "documents": [
+            "Aadhaar Card",
+            "Educational Certificates",
+            "Bank Account"
+        ],
+        "applyLink": "https://www.pmkvyofficial.org",
+        "description": "Flagship scheme for skill development enabling youth to take up industry-relevant training.",
+        "ministry": "Ministry of Skill Development",
+        "tags": [
+            "skill training",
+            "youth",
+            "employment",
+            "certification"
+        ]
+    },
+    {
+        "id": "nrega",
+        "name": "Mahatma Gandhi NREGA",
+        "category": "Employment",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "100 days of guaranteed wage employment per year at ₹267–₹357/day",
+        "documents": [
+            "Aadhaar Card",
+            "Job Card",
+            "Bank Account"
+        ],
+        "applyLink": "https://nrega.nic.in",
+        "description": "Guarantees 100 days of employment per year to rural households at notified minimum wages.",
+        "ministry": "Ministry of Rural Development",
+        "tags": [
+            "rural employment",
+            "guaranteed work",
+            "wages"
+        ]
+    },
+    {
+        "id": "old-age-pension",
+        "name": "Indira Gandhi National Old Age Pension",
+        "category": "Social Security",
+        "state": "All India",
+        "minAge": 60,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "₹200–₹500/month central contribution + state top-up, paid directly to bank",
+        "documents": [
+            "Aadhaar Card",
+            "Age Proof",
+            "BPL Certificate",
+            "Bank Account"
+        ],
+        "applyLink": "https://nsap.nic.in",
+        "description": "Monthly pension to BPL senior citizens above 60 years of age.",
+        "ministry": "Ministry of Rural Development",
+        "tags": [
+            "pension",
+            "elderly",
+            "BPL",
+            "senior citizen"
+        ]
+    },
+    {
+        "id": "widow-pension",
+        "name": "Indira Gandhi National Widow Pension",
+        "category": "Social Security",
+        "state": "All India",
+        "minAge": 40,
+        "maxAge": 79,
+        "gender": "Female",
+        "caste": "All",
+        "benefits": "₹300/month central assistance + state top-up directly to bank account",
+        "documents": [
+            "Aadhaar Card",
+            "Husband's Death Certificate",
+            "BPL Certificate",
+            "Bank Account"
+        ],
+        "applyLink": "https://nsap.nic.in",
+        "description": "Provide financial support to BPL widows aged 40–79 years.",
+        "ministry": "Ministry of Rural Development",
+        "tags": [
+            "widow",
+            "pension",
+            "women",
+            "BPL"
+        ]
+    },
+    {
+        "id": "nirvik",
+        "name": "NIRVIK Export Credit Insurance",
+        "category": "Finance",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "90% insurance cover for export credit losses; higher loan limits for exporters",
+        "documents": [
+            "Company Registration",
+            "Export License",
+            "Bank Statement",
+            "PAN Card"
+        ],
+        "applyLink": "https://www.ecgc.in",
+        "description": "Enhanced export credit insurance to boost export credit at lower cost.",
+        "ministry": "Ministry of Commerce",
+        "tags": [
+            "export",
+            "insurance",
+            "business",
+            "trade"
+        ]
+    },
+    {
+        "id": "pm-garib-kalyan",
+        "name": "PM Garib Kalyan Anna Yojana",
+        "category": "Food Security",
+        "state": "All India",
+        "minAge": 0,
+        "maxAge": 99,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "5 kg free rice/wheat per person per month to NFSA beneficiaries",
+        "documents": [
+            "Ration Card",
+            "Aadhaar Card"
+        ],
+        "applyLink": "https://dfpd.gov.in",
+        "description": "Free food grain to about 80 crore beneficiaries under NFSA, extended nationwide.",
+        "ministry": "Ministry of Consumer Affairs",
+        "tags": [
+            "ration",
+            "food grain",
+            "free",
+            "BPL"
+        ]
+    },
+    {
+        "id": "pm-ujjwala",
+        "name": "Pradhan Mantri Ujjwala Yojana",
+        "category": "Women & Child",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 99,
+        "gender": "Female",
+        "caste": "All",
+        "benefits": "Free LPG connection + first refill free + deposit-free cylinder for BPL women",
+        "documents": [
+            "Aadhaar Card",
+            "BPL Ration Card",
+            "Bank Account",
+            "Passport Photo"
+        ],
+        "applyLink": "https://pmuy.gov.in",
+        "description": "Provides free LPG connections to BPL women to reduce dependence on wood/coal for cooking.",
+        "ministry": "Ministry of Petroleum",
+        "tags": [
+            "LPG",
+            "cooking gas",
+            "BPL women",
+            "clean fuel"
+        ]
+    },
+    {
+        "id": "atal-pension",
+        "name": "Atal Pension Yojana",
+        "category": "Social Security",
+        "state": "All India",
+        "minAge": 18,
+        "maxAge": 40,
+        "gender": "All",
+        "caste": "All",
+        "benefits": "Guaranteed pension of ₹1,000–₹5,000/month after age 60 based on contribution",
+        "documents": [
+            "Aadhaar Card",
+            "Bank Account",
+            "Mobile Number"
+        ],
+        "applyLink": "https://www.npscra.nsdl.co.in",
+        "description": "Pension scheme focused on unorganized sector workers; government co-contributes for eligible accounts.",
+        "ministry": "Ministry of Finance",
+        "tags": [
+            "pension",
+            "retirement",
+            "unorganized sector"
+        ]
+    }
+]

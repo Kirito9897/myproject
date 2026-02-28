@@ -1,0 +1,97 @@
+{
+    "nav": {
+        "home": "Home",
+        "schemes": "Browse Schemes",
+        "eligibility": "Check Eligibility",
+        "about": "About"
+    },
+    "hero": {
+        "tagline": "Government Schemes Made Simple",
+        "headline": "Find the Right Scheme for You",
+        "subheadline": "Discover 1500+ government schemes across Education, Health, Farming, Housing, and more — instantly.",
+        "cta": "Find Schemes for You",
+        "searchPlaceholder": "Search schemes, benefits, categories...",
+        "stats": {
+            "schemes": "1500+ Schemes",
+            "states": "28 States",
+            "categories": "12 Categories"
+        }
+    },
+    "filter": {
+        "title": "Filter Schemes",
+        "category": "Category",
+        "state": "State",
+        "gender": "Gender",
+        "caste": "Caste",
+        "all": "All",
+        "reset": "Reset Filters",
+        "results": "schemes found"
+    },
+    "eligibility": {
+        "title": "Smart Eligibility Finder",
+        "subtitle": "Answer 4 quick questions to find schemes made for you",
+        "step1": {
+            "label": "What is your age?",
+            "placeholder": "Enter your age (e.g. 25)"
+        },
+        "step2": {
+            "label": "What is your gender?",
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
+        },
+        "step3": {
+            "label": "What is your caste category?",
+            "options": [
+                "General",
+                "OBC",
+                "SC",
+                "ST"
+            ]
+        },
+        "step4": {
+            "label": "Which state do you live in?"
+        },
+        "next": "Next →",
+        "back": "← Back",
+        "find": "Find My Schemes",
+        "close": "Close"
+    },
+    "card": {
+        "applyNow": "Apply Now ↗",
+        "viewDocs": "View Documents",
+        "hideDocs": "Hide Documents",
+        "addCompare": "Add to Compare",
+        "removeCompare": "Remove",
+        "documentsRequired": "Documents Required",
+        "benefits": "Benefits",
+        "category": "Category",
+        "coverage": "Coverage"
+    },
+    "compare": {
+        "title": "Scheme Comparison",
+        "selected": "Selected for comparison",
+        "compare": "Compare Now",
+        "clear": "Clear All",
+        "close": "Close Comparison",
+        "selectTwo": "Select 2 schemes to compare",
+        "field": "Field",
+        "vs": "vs"
+    },
+    "theme": {
+        "dark": "Dark Mode",
+        "light": "Light Mode",
+        "highContrast": "High Contrast"
+    },
+    "language": {
+        "en": "English",
+        "hi": "हिन्दी"
+    },
+    "footer": {
+        "tagline": "Making government schemes accessible to every Indian citizen.",
+        "disclaimer": "This is an unofficial portal. For official information, visit myscheme.gov.in",
+        "reference": "Reference Sites"
+    }
+}
